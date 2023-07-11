@@ -2,7 +2,12 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": false,
-    "outDir": "../../dist/apps/security"
+    "outDir": "../../dist/apps/security",
+    "paths": {
+      "@security/domain": ["./src/domain"],
+      "@security/application": ["./src/application"],
+      "@security/infrastructure": ["./src/infrastructure"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]

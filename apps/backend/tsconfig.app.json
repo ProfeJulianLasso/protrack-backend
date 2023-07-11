@@ -2,7 +2,12 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": false,
-    "outDir": "../../dist/apps/backend"
+    "outDir": "../../dist/apps/backend",
+    "paths": {
+      "@backend": ["./src"],
+      "@backend/services": ["./src/services"],
+      "@backend/controllers": ["./src/controllers"]
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
