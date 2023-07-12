@@ -1,6 +1,6 @@
 import { IdValueObject, ValueObjectBase } from '../../entities';
 
-export interface IRepository<T> {
+export interface IRepositoryBase<T> {
   findAll(): Promise<T[]>;
   findBy(
     ...args: ValueObjectBase<string | number | bigint | Date | boolean>[]

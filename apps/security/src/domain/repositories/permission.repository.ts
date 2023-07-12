@@ -1,4 +1,5 @@
 import { PermissionEntity } from '../entities';
-import { IRepository } from './interfaces';
+import { IRepositoryBase } from './interfaces';
 
-export interface IPermissionRepository extends IRepository<PermissionEntity> {}
+export interface IPermissionRepository
+  extends IRepositoryBase<PermissionEntity> {}

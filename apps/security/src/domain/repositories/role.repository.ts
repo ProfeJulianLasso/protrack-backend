@@ -1,4 +1,4 @@
 import { RoleEntity } from '../entities';
-import { IRepository } from './interfaces';
+import { IRepositoryBase } from './interfaces';
 
-export interface IRoleRepository extends IRepository<RoleEntity> {}
+export interface IRoleRepository extends IRepositoryBase<RoleEntity> {}
