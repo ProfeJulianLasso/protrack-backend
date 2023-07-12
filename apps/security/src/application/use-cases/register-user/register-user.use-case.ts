@@ -6,7 +6,7 @@ import {
   SecurityAggregate,
   UserEntity,
 } from '@security/domain';
-import { IUseCaseBase } from './interfaces';
+import { IUseCaseBase } from '../interfaces';
 
 export class RegisterUserUseCase implements IUseCaseBase {
   private aggregateRoot: SecurityAggregate;
