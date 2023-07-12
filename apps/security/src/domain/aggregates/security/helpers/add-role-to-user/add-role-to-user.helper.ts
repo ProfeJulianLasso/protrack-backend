@@ -1,6 +1,4 @@
-// import { RoleEntity, UserEntity } from '@security/domain';
-
-import { RoleEntity, UserEntity } from 'apps/security/src/domain/entities';
+import { RoleEntity, UserEntity } from '@security/domain';
 
 export const AddRoleToUserHelper = (
   user: UserEntity,
