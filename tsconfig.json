@@ -17,6 +17,14 @@
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "paths": {}
+    "paths": {
+      "@backend/services": ["./apps/backend/src/services"],
+      "@backend/controllers": ["./apps/backend/src/controllers"],
+      "@security/domain": ["./apps/security/src/domain/index.ts"],
+      "@security/application": ["./apps/security/src/application/index.ts"],
+      "@security/infrastructure": [
+        "./apps/security/src/infrastructure/index.ts"
+      ]
+    }
   }
 }
