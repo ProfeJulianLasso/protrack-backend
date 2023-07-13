@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { CreateUserGateway } from './gateways';
 
-@Module({})
+@Module({
+  controllers: [CreateUserGateway],
+})
 export class ApiModule {}

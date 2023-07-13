@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "pnpm start:debug",
+      "command": "pnpm start-backend:debug",
       "name": "Run debug",
       "request": "launch",
       "type": "node-terminal"
